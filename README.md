@@ -9,7 +9,7 @@
 * **Monoliths** are applications that combine a multitude of microservices and/or business capabilities
 * **Ecosystems** are compilations of microservices and monoliths 
 
-###Examples
+### Examples
 A form label atom, search input atom, and button atom can join together to create a search form molecule.
 
 A logo atom, search form molecule, and navigation molecule can be joined together to create a header organism.
