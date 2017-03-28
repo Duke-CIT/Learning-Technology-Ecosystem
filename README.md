@@ -22,7 +22,7 @@ Multiple pages and APIs can be joined together to offer a service or microservic
 
 Multitudes of services joined together in one application architecture create a monolith.
 
-Microservices and monolithes offered as a portfolio of services to the university community is the learning technology ecosystem.
+Microservices and monolithes offered as a portfolio to a community is a learning technology ecosystem.
 
 
 ## Design for the edges
