@@ -1,33 +1,53 @@
 # Learning-Technology-Ecosystem
-## [Atomic Design](http://atomicdesign.bradfrost.com/)
-* **Atoms** of our interfaces serve as the foundational building blocks that comprise all our user interfaces.
-* **Molecules** are relatively simple groups of UI elements functioning together as a unit. 
-* **Organisms** are relatively complex UI components composed of groups of molecules and/or atoms and/or other organisms. 
-* **Templates** are page-level objects that place components into a layout and articulate the design’s underlying content structure.
-* **Pages** are specific instances of templates that show what a UI looks like with real representative content in place.
-* **Microservices** are pages and services that represent a single business capability or domain
-* **Monoliths** are applications that combine a multitude of microservices and/or business capabilities
-* **Ecosystems** are compilations of microservices and monoliths 
-
-### Examples
-A form label atom, search input atom, and button atom can join together to create a search form molecule.
-
-A logo atom, search form molecule, and navigation molecule can be joined together to create a header organism.
-
-A header organism, billboard organism, sidebar organism, and footer organism can be joined together to create a homepage template.
-
-Data can be provided to a homepage template to create a home page.
-
-Multiple pages and APIs can be joined together to offer a service or microservice.
-
-Multitudes of services joined together in one application architecture create a monolith.
-
-Microservices and monolithes offered as a portfolio to a community is a learning technology ecosystem.
+## Table of Contents
+1. [Define the paradigm shift](Chapter-1.md)
+2. [Atomic design](Chapter-2.md)
+3. [Putting it all together](Chapter-N.md)
 
 
-## Design for the edges
-The majority of faculty will use the LMS monolith, and usually, only a few features. 
+DLX
 
-Design intuitive solutions for innovative and laggard faculty and students.
+* learner focused
+* UI separate from content separate from backend
+* api driven
+* delivers sound digital pedagogies only
+* personalized
+	* users select the way they want to learn material
+	* so material is built to be delivered in a multitude of ways
+	* for pilot this may mean a single build by content experts manually converted to other means if apis cannot handle the task
+	* what standards are required?
+	* Authentication - MG & OIT
+		* shibboleth
+		* LTI
+		* OAuth
+	* Content - need resources
+		* HTML and JSON
+	* Data - need resources
+		* XAPI
+		* Caliper
+		*  dispositional (e.g., incoming GPA, biographic and demographic data)
+		*  course activity and engagement, (e.g., keystrokes, selections, time on task)
+		*  learner artifacts (e.g., essays, blog posts, media products)
+*  Analytics are robust, student has agency to export and integrate additional data sources
+	* student empowerment
+	* continuous instructional improvement
+	* institutional oversight  
+*  Presents a program length experience
+	* this is why nursing could be appealing. Can we get a program to buy into this mindset?  
+* Connects the learner 
+	* inside and outside dlx
+	* what's closed and what's open? - need resources
+* 
 
-Design is just the application of a structure. Theme is on top of that.
+Course design process similar to MOOC
+
+1. faculty provide current course content
+2. course design team reformats the content to fit DLX
+3. faculty approves DLX
+
+
+Possible technologies
+
+* etherpad for google docs like collaboration? what's their API like?
+* PlayPosit for media
+* 

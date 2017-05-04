@@ -14,19 +14,20 @@
 * media management
 	* lecture capture
 * file management
+	* eText
+	* restricted resources
 * web conferencing
 * discussions
 * communication
 * collaboration
 * ePortfolios
 * annotations
-* restricted resources
+
 * credentials
 	* badges
 * classroom response
 * calendar
 	* schedule
-* eText
 * web hosting
 * 
 
