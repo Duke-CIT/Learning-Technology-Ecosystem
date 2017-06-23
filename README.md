@@ -2,6 +2,7 @@
 ## Table of Contents
 1. [Define the paradigm shift](Chapter-1.md)
 2. [Atomic design](Chapter-2.md)
+3. [Designed Learning Experience](Chapter-3.md)
 3. [Putting it all together](Chapter-N.md)
 
 
