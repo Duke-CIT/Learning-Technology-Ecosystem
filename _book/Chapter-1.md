@@ -1,5 +1,5 @@
 # 1 - Defining the Paradigm Shift
-![Services](Services.png)
+![Services](resources/Services.png)
 Services that make up part of today's Duke learning experience.
 
 ## For Technologists
