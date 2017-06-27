@@ -1,0 +1,17 @@
+# Summary
+
+* [Introduction](README.md)
+* [Define the paradigm shift](Chapter-1.md)
+* [Atomic design](Chapter-2.md)
+* [Designed Learning Experience](Chapter-3.md)
+* [Putting it all together](Chapter-N.md)
+* [Potential Projects](projects/README.md)
+	* [Designed Learning eXperience](projects/DLX-DUSON.md )
+	* [Git as Learning Object Repository](projects/Git-LOR.md)
+	* [H5P in Sakai](projects/H5P-Sakai.md)
+	* [Learning Analytics](projects/learning-analytics.md)
+	* [Evolving DDI](projects/LearnTAC-DDI-IE.md)
+	* [Net+ Sponsorship](projects/Net+sponsorship.md)
+	* [Researching Learning Technology Services and PRojects](projects/Research-Opportunities.md)
+	* [Evolving Toolkits](projects/Toolkits-NG.md)
+* [Contributing](CONTRIBUTING.md)
