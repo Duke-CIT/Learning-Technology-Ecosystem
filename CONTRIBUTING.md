@@ -14,7 +14,7 @@ To work on and contribute to Learning Technology Ecosystem:
 
 2. `install` Gitbook via NodeJS (v4.0.0 and above is recommended)
 
-`npm install gitbook-cli -g`
+	`npm install gitbook-cli -g`
 
 3. [Fork](https://help.github.com/articles/fork-a-repo/) the [central repository](https://github.com/Duke-CIT/Learning-Technology-Ecosystem) to your own GitHub account
 
