@@ -1,0 +1,10 @@
+{
+	"title": "The Duke Learning Technology Ecosystem",
+	"plugins": ["edit-link"],
+	"pluginsConfig": {
+		"edit-link": {
+                "base": "https://github.com/Duke-CIT/Learning-Technology-Ecosystem/edit/master",
+                "label": "Edit This Page"
+            }
+	}
+}

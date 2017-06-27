@@ -93,5 +93,7 @@ You will often receive friendly advice to improve or fix the changes you propose
 
 6. Make a comment on the existing PR to alert reviewers to your changes
 
+[Edit on Gitbook](https://www.gitbook.com/book/profmikegreene/the-learning-technology-ecosystem/edit#/edit/master/{{file.path}})
 
+[Edit on Github](https://github.com/Duke-CIT/Learning-Technology-Ecosystem/edit/
 
