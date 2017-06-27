@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Putting it all together · GitBook</title>
+        <title>Contributing · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="projects/" />
     
-    
-    <link rel="prev" href="Chapter-3.html" />
+    <link rel="prev" href="projects/Toolkits-NG.html" />
     
 
     </head>
@@ -141,7 +139,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5" data-path="Chapter-N.html">
+        <li class="chapter " data-level="1.5" data-path="Chapter-N.html">
             
                 <a href="Chapter-N.html">
             
@@ -277,7 +275,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="CONTRIBUTING.html">
+        <li class="chapter active" data-level="1.7" data-path="CONTRIBUTING.html">
             
                 <a href="CONTRIBUTING.html">
             
@@ -320,7 +318,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Putting it all together</a>
+        <a href="." >Contributing</a>
     </h1>
 </div>
 
@@ -335,99 +333,86 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="putting-it-all-together">Putting it all together</h1>
-<h2 id="definition-of-design">Definition of design</h2>
-<p>Design is solving a problem. Many things have to be designed before you approach the field of visual design and decide how things look.</p>
-<h2 id="designed-user-experience">Designed user experience</h2>
-<p>The ecosystem is a shift in priority from administration of courses to designed experiences for teachers and learners.</p>
-<p>This doesn&apos;t mean the LMS goes away
-This doesn&apos;t mean things are &apos;prettier&apos;</p>
-<p>This means we, the stewards of the ecosystem, consider the whole experience of what it means to offer learning and to receive learning at Duke.</p>
-<p>The learning technology ecosystem would provide intuitive, designed experiences for teachers and learners to do the following.</p>
-<h2 id="assessment">Assessment</h2>
+                                <h1 id="contributing">Contributing</h1>
+<p>Admittedly, we are using <code>origin</code> + <code>upstream</code> mostly because @profmikegreene hasn&apos;t figured out how to get the Duke-CIT github organization repo to work on his machine with gitbook. Thanks to @sakaiproject for this great documentation.</p>
+<h2 id="workflow">Workflow</h2>
 <ul>
-<li>rubrics</li>
-<li>outcomes</li>
-<li>assignments</li>
-<li>ePortfolios</li>
-<li>credentials</li>
-<li>badges</li>
-<li>classroom response</li>
-</ul>
-<h2 id="authoring">Authoring</h2>
-<ul>
-<li>lessons</li>
-<li>learning pathways</li>
-<li>web hosting</li>
-</ul>
-<h2 id="communication">Communication</h2>
-<ul>
-<li>web conferencing</li>
-<li>discussions</li>
-</ul>
-<h2 id="computing">Computing</h2>
-<ul>
-<li>labs</li>
-<li>laptops</li>
-<li>devices</li>
-<li>research computing resources</li>
-</ul>
-<h2 id="learning-management">Learning Management</h2>
-<ul>
-<li>gradebook</li>
-<li>groups<ul>
-<li>rosters    </li>
+<li><strong><em>local</em></strong> = A copy of the repo on your workstation (this is where everyone typically does work)<ul>
+<li><strong><em>origin</em></strong> = Your personal copy of the repo on GitHub (you <code>clone</code> this repository on your workstation to make the <strong><em>local</em></strong> copy for everyday work)</li>
+<li><strong><em>upstream</em></strong> = Main GitHub repo (everyone forks this project into their GitHub account to make the <strong><em>origin</em></strong>)</li>
 </ul>
 </li>
-<li>experience progression</li>
-<li>calendar</li>
 </ul>
-<h2 id="media">Media</h2>
-<ul>
-<li>media management</li>
-<li>lecture capture</li>
-<li>production</li>
-</ul>
-<h2 id="storage">Storage</h2>
-<ul>
-<li>file management</li>
-<li>eText</li>
-<li>restricted resources</li>
-</ul>
-<h2 id="capabilities">Capabilities</h2>
-<p>Services and experiences have the ability to:</p>
-<ul>
-<li>Batchable - select multiple, perform action</li>
-<li>Groupable - connect to groups of users</li>
-<li>Gradeable - assign value</li>
-<li>Adaptable - be part of a pathway</li>
-<li>Collaboratable - users interact simultaneously</li>
-<li>Annotatable - allow feedback and context</li>
-<li>Openable - extended to outside groups</li>
-<li>Programmable - have APIs</li>
-<li>Trackable - create events for analytics</li>
-</ul>
-<h2 id="an-example">An Example</h2>
-<p>Let&apos;s walk through an example faculty experience with some of the current technologies used to accomplish them.</p>
+<p>To work on and contribute to Learning Technology Ecosystem:</p>
 <ol>
-<li>View the courses they are teaching this semester (DukeHub)</li>
-<li>View the details and roster for a single course (DukeHub)</li>
-<li>Build a syllabus for the course (Word)</li>
-<li>Store the syllabus somewhere accessible to the roster (Sakai, Box, Email)</li>
-<li>Build content and activities to support the goals described in the syllabus (Word, Sakai, Class discussion, lecture <em>sigh</em>)</li>
-<li>Build assessments to evaluate how well the content supports those goals (Sakai, Clickers, Scantron, PebblePad)</li>
-<li>Grade assessments and provide feedback (Red ink pen, Sakai, Word)</li>
+<li><p><a href="https://help.github.com/articles/set-up-git/" target="_blank">Set up Git, create a GitHub account, and set your name and e-mail address correctly as Git global variables on your local workstation</a></p>
+</li>
+<li><p><code>install</code> Gitbook via NodeJS (v4.0.0 and above is recommended)</p>
+</li>
 </ol>
-<p>Level 1 - </p>
-<p>Level 2 - </p>
-<p>Level 3 - </p>
-<p>Level 4 - configurable experience that gives faculty choice</p>
-<p>Today, most faculty are somewhere between links on a departmental webpage out to the various steps and app with a Duke header bar that embeds each step into the page, i.e. the LMS. </p>
-<p>Coursera is a move in the right direction in that it&apos;s a single interface for program and course management, teaching, learning, and credentialing. But the experience is limited to what they define.</p>
-<p>A single, designed experience that requires each step to be done inside of the design it dictates ecosystem model would reduce the switching costs of moving between tools and user interfaces.  </p>
-<p>A level 4 ecosystem doesn&apos;t care what system faculty use to store a syllabus, it offers a single interface to create stuff, upload stuff, and store stuff. </p>
-<p>If faculty want to use Box instead of Sakai Resources, it&apos;s just a checkbox in a setting somewhere, not a completely different experience.  </p>
-<p>Instead of having to think where do I upload this file to, faculty just upload the file to the desired default location they&apos;ve chosen.</p>
+<p><code>npm install gitbook-cli -g</code></p>
+<ol>
+<li><p><a href="https://help.github.com/articles/fork-a-repo/" target="_blank">Fork</a> the <a href="https://github.com/Duke-CIT/Learning-Technology-Ecosystem" target="_blank">central repository</a> to your own GitHub account</p>
+</li>
+<li><p><code>Clone</code> your <strong><em>origin</em></strong> repository onto your local workstation (this example uses HTTPS as the transport mechanism):</p>
+<p><code>git clone https://github.com/GITHUBACCOUNTNAME/Learning-Technology-Ecosystem</code></p>
+</li>
+<li><p>Add a <code>remote</code> to receive updates from the <strong><em>upstream</em></strong> repository:</p>
+<p><code>git remote add upstream https://github.com/Duke-CIT/Learning-Technology-Ecosystem</code></p>
+</li>
+<li><p>Update your <strong><em>local</em></strong> repository frequently to stay up to date:</p>
+<p><code>git checkout master</code> (switch to <strong><em>local</em></strong> <code>master</code> branch)</p>
+<p><code>git pull upstream master</code> (<code>pull</code> in any <strong><em>upstream</em></strong> changes)</p>
+<p><code>git push origin master</code> (<code>push</code> the changes up to the <strong><em>origin</em></strong>)</p>
+</li>
+</ol>
+<h2 id="working-on-bugs-and-features">Working on bugs and features</h2>
+<h4 id="never-work-in-your-local-master-branch">Never work in your <strong><em>local</em></strong> <code>master</code> branch.</h4>
+<p>This branch should always be the same as what is in  <strong><em>upstream</em></strong> <code>master</code> and if you make commits into your <strong><em>local</em></strong> <code>master</code>, and those commits are not accepted into the upstream repository <code>master</code>, you will forever be maintaining them yourself, which can get very complicated. To make life easier for yourself, <strong>use a branch for everything</strong>.</p>
+<h3 id="general-workflow">General workflow</h3>
+<p>To fix a bug or add a feature, the general Git workflow is:</p>
+<ol>
+<li><p>Create a <strong><em>local</em></strong> branch using Github Issue reference for the branch name:</p>
+<p><code>git checkout -b 4-patch-name</code></p>
+</li>
+</ol>
+<ol>
+<li><p>Do work</p>
+</li>
+<li><p>Preview work with <code>gitbook serve</code> and view at <a href="http://localhost:4000" target="_blank">http://localhost:4000</a></p>
+</li>
+<li><p>Add changed or new files:</p>
+<p><code>git add .</code></p>
+</li>
+<li><p>Make your <strong><em>local</em></strong> commit:</p>
+<p><code>git commit -m &quot;#4 Add some documentation about contributing&quot;</code></p>
+</li>
+<li><p>Share branch back to <strong><em>origin</em></strong>:</p>
+<p><code>git push origin 4-patch-name</code></p>
+</li>
+<li><p><a href="https://help.github.com/articles/creating-a-pull-request/" target="_blank">Create a pull request (PR)</a> using GitHub from the branch against the <strong><em>upstream</em></strong> <code>master</code> for review by others</p>
+</li>
+</ol>
+<h3 id="respond-to-a-pull-request-pr-by-updating-proposed-changes">Respond to a pull request (PR) by updating proposed changes</h3>
+<p>You will often receive friendly advice to improve or fix the changes you proposed in a p. To update your changes and maintain the existing PR, you should:</p>
+<ol>
+<li><p>Change to your <strong><em>local</em></strong> branch:</p>
+<p><code>git checkout 4-patch-name</code></p>
+</li>
+<li><p>Make changes and/or improvements in response to PR comments</p>
+</li>
+<li><p>Add changed or new files:</p>
+<p><code>git add -u</code></p>
+</li>
+<li><p>Update existing commit (this updates the previous commit rather than making a new one):</p>
+<p><code>git commit --amend -C HEAD</code></p>
+</li>
+<li><p>Share your new <strong><em>local</em></strong> changes back to the <strong><em>origin</em></strong> branch and the original PR (by force is required for amending commits. You should only ever push by force into your own repo):</p>
+<p><code>git push -f origin 4-patch-name</code></p>
+</li>
+<li><p>Make a comment on the existing PR to alert reviewers to your changes</p>
+</li>
+</ol>
 
                                 
                                 </section>
@@ -455,14 +440,10 @@ This doesn&apos;t mean things are &apos;prettier&apos;</p>
 
             
                 
-                <a href="Chapter-3.html" class="navigation navigation-prev " aria-label="Previous page: Designed Learning Experience">
+                <a href="projects/Toolkits-NG.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Evolving Toolkits">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="projects/" class="navigation navigation-next " aria-label="Next page: Potential Projects">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -471,7 +452,7 @@ This doesn&apos;t mean things are &apos;prettier&apos;</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Putting it all together","level":"1.5","depth":1,"next":{"title":"Potential Projects","level":"1.6","depth":1,"path":"projects/README.md","ref":"projects/README.md","articles":[{"title":"Designed Learning eXperience","level":"1.6.1","depth":2,"path":"projects/DLX-DUSON.md","ref":"projects/DLX-DUSON.md","articles":[]},{"title":"Git as Learning Object Repository","level":"1.6.2","depth":2,"path":"projects/Git-LOR.md","ref":"projects/Git-LOR.md","articles":[]},{"title":"H5P in Sakai","level":"1.6.3","depth":2,"path":"projects/H5P-Sakai.md","ref":"projects/H5P-Sakai.md","articles":[]},{"title":"Learning Analytics","level":"1.6.4","depth":2,"path":"projects/learning-analytics.md","ref":"projects/learning-analytics.md","articles":[]},{"title":"Evolving DDI","level":"1.6.5","depth":2,"path":"projects/LearnTAC-DDI-IE.md","ref":"projects/LearnTAC-DDI-IE.md","articles":[]},{"title":"Net+ Sponsorship","level":"1.6.6","depth":2,"path":"projects/Net+sponsorship.md","ref":"projects/Net+sponsorship.md","articles":[]},{"title":"Researching Learning Technology Services and PRojects","level":"1.6.7","depth":2,"path":"projects/Research-Opportunities.md","ref":"projects/Research-Opportunities.md","articles":[]},{"title":"Evolving Toolkits","level":"1.6.8","depth":2,"path":"projects/Toolkits-NG.md","ref":"projects/Toolkits-NG.md","articles":[]}]},"previous":{"title":"Designed Learning Experience","level":"1.4","depth":1,"path":"Chapter-3.md","ref":"Chapter-3.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter-N.md","mtime":"2017-06-27T02:56:10.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-27T04:06:21.771Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Contributing","level":"1.7","depth":1,"previous":{"title":"Evolving Toolkits","level":"1.6.8","depth":2,"path":"projects/Toolkits-NG.md","ref":"projects/Toolkits-NG.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"CONTRIBUTING.md","mtime":"2017-06-27T04:23:32.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-27T04:06:21.771Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

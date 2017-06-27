@@ -1,1 +1,0 @@
-# Net+ sponsorship for Duke Learning Technologies
