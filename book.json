@@ -1,10 +1,13 @@
 {
 	"title": "The Duke Learning Technology Ecosystem",
-	"plugins": ["edit-link"],
+	"plugins": ["edit-link", "disqus"],
 	"pluginsConfig": {
 		"edit-link": {
-                "base": "https://github.com/Duke-CIT/Learning-Technology-Ecosystem/edit/master",
-                "label": "Edit This Page"
-            }
+      "base": "https://www.gitbook.com/book/profmikegreene/the-learning-technology-ecosystem/edit",
+      "label": "Edit This Page"
+            },
+    "disqus": {
+    	"shortName": "dukelte"
+    }
 	}
 }
