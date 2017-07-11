@@ -2,6 +2,7 @@
 
 ## Requirements
 * npm
+* git
 * gitbook
 
 
