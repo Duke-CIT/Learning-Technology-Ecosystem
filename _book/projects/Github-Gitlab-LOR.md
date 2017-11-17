@@ -1,1 +1,0 @@
-# Github/Gitlab as Learning Object Repository
