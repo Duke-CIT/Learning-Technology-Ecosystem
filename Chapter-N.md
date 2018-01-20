@@ -2,7 +2,7 @@
 ## Definition of design
 Design is solving a problem. Many things have to be designed before you approach the field of visual design and decide how things look.
 
-## Designed user experience
+## Designed learning experience
 The ecosystem is a shift in priority from administration of courses to designed experiences for teachers and learners.
 
 This doesn't mean the LMS goes away
